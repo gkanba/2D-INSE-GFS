@@ -1,0 +1,19 @@
+{
+    "RootDir"   : "./out",
+    "Threads"   : 36,
+
+    "Delta_t"   : 0.01,
+    "Max_t"     : 100.0,
+    "Out_t"     : 50.0,
+    "Info_t"    : 10.0,
+
+    "nu"        : 0.0001,
+    "N"         : 128,
+
+    "Lambda_f"  : 64,
+    "Target_f"  : 0.0025,
+    "Seed_f"    : 0,
+
+    "Type"      : 0,
+    "Seed_i"    : 0
+}
