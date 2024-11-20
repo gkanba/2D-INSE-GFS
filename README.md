@@ -17,8 +17,6 @@ This repository includes two primary programs:
 2. **Navier-Stokes Equation Solver with Forcing based on Annulus Fourier Coefficient**  
    A solver using annulus Fourier coefficient forcing for specialized simulations.
 
-Additionally, some data assimilation codes are provided for research purposes.
-
 ## Dependencies
 
 The following libraries are required to build and run this project:
