@@ -1,0 +1,304 @@
+>> CONFIGURATION      || Attempting to load Configuration.
+>> CONFIGURATION      || Initializing with setups below.
+{
+    "Delta_t": 0.01,
+    "Info_t": 2.0,
+    "Max_t": 100.0,
+    "N": 128,
+    "Out_t": 10.0,
+    "RootDir": "./out",
+    "Seed_i": 10,
+    "Threads": 36,
+    "Type": 0,
+    "gamma": 0.01,
+    "k": 1,
+    "nu": 0.5
+}
+>> FILE SYSTEM        || Initializing directory.
+ -- Directory Already Exists  = ./out
+ -- Directory Already Exists  = ./out/init/
+ -- Directory Already Exists  = ./out/mid/
+ -- Directory Already Exists  = ./out/final/
+>> PRALALLELIZATION   || Initializing with setups below.
+ -- Available Threads = 36
+ -- OMP, FFTW Threads = 36
+>> Initial Condition      || 
+-- Omg_h ic integer = 0
+ [FileSystem] Successfully saved -- ./out/init/omg_init.dat
+ [FileSystem] Successfully saved -- ./out/init/omg_init.txt
+ [FileSystem] Successfully saved -- ./out/init/omg_h_init.dat
+ [FileSystem] Successfully saved -- ./out/init/omg_h_init.txt
+ [FileSystem] Successfully saved -- ./out/init/g.dat
+ [FileSystem] Successfully saved -- ./out/init/g.txt
+ [FileSystem] Successfully saved -- ./out/init/g_h.dat
+ [FileSystem] Successfully saved -- ./out/init/g_h.txt
+>> MAIN LOOP          || Started Calculation.
+ [c = 0]
+ -- |u| = 0
+ -- CFL = 0
+ [FileSystem] Successfully saved -- ./out/mid/omg_0.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_0.txt
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_0.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_0.txt
+ [FileSystem] Successfully saved -- ./out/mid/u_0.dat
+ [FileSystem] Successfully saved -- ./out/mid/u_0.txt
+ [FileSystem] Successfully saved -- ./out/mid/v_0.dat
+ [FileSystem] Successfully saved -- ./out/mid/v_0.txt
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_0.dat
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_0.txt
+ [c = 200]
+ -- |u| = 0.0561688
+ -- CFL = 0.00128775
+ [c = 400]
+ -- |u| = 0.0768321
+ -- CFL = 0.00176148
+ [c = 600]
+ -- |u| = 0.0844337
+ -- CFL = 0.00193576
+ [c = 800]
+ -- |u| = 0.0872302
+ -- CFL = 0.00199987
+ [c = 1000]
+ -- |u| = 0.0882589
+ -- CFL = 0.00202346
+ [FileSystem] Successfully saved -- ./out/mid/omg_1000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_1000.txt
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_1000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_1000.txt
+ [FileSystem] Successfully saved -- ./out/mid/u_1000.dat
+ [FileSystem] Successfully saved -- ./out/mid/u_1000.txt
+ [FileSystem] Successfully saved -- ./out/mid/v_1000.dat
+ [FileSystem] Successfully saved -- ./out/mid/v_1000.txt
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_1000.dat
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_1000.txt
+ [c = 1200]
+ -- |u| = 0.0886374
+ -- CFL = 0.00203213
+ [c = 1400]
+ -- |u| = 0.0887766
+ -- CFL = 0.00203533
+ [c = 1600]
+ -- |u| = 0.0888279
+ -- CFL = 0.0020365
+ [c = 1800]
+ -- |u| = 0.0888467
+ -- CFL = 0.00203693
+ [c = 2000]
+ -- |u| = 0.0888536
+ -- CFL = 0.00203709
+ [FileSystem] Successfully saved -- ./out/mid/omg_2000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_2000.txt
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_2000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_2000.txt
+ [FileSystem] Successfully saved -- ./out/mid/u_2000.dat
+ [FileSystem] Successfully saved -- ./out/mid/u_2000.txt
+ [FileSystem] Successfully saved -- ./out/mid/v_2000.dat
+ [FileSystem] Successfully saved -- ./out/mid/v_2000.txt
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_2000.dat
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_2000.txt
+ [c = 2200]
+ -- |u| = 0.0888562
+ -- CFL = 0.00203715
+ [c = 2400]
+ -- |u| = 0.0888571
+ -- CFL = 0.00203717
+ [c = 2600]
+ -- |u| = 0.0888575
+ -- CFL = 0.00203718
+ [c = 2800]
+ -- |u| = 0.0888576
+ -- CFL = 0.00203718
+ [c = 3000]
+ -- |u| = 0.0888576
+ -- CFL = 0.00203718
+ [FileSystem] Successfully saved -- ./out/mid/omg_3000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_3000.txt
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_3000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_3000.txt
+ [FileSystem] Successfully saved -- ./out/mid/u_3000.dat
+ [FileSystem] Successfully saved -- ./out/mid/u_3000.txt
+ [FileSystem] Successfully saved -- ./out/mid/v_3000.dat
+ [FileSystem] Successfully saved -- ./out/mid/v_3000.txt
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_3000.dat
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_3000.txt
+ [c = 3200]
+ -- |u| = 0.0888576
+ -- CFL = 0.00203718
+ [c = 3400]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 3600]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 3800]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 4000]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [FileSystem] Successfully saved -- ./out/mid/omg_4000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_4000.txt
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_4000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_4000.txt
+ [FileSystem] Successfully saved -- ./out/mid/u_4000.dat
+ [FileSystem] Successfully saved -- ./out/mid/u_4000.txt
+ [FileSystem] Successfully saved -- ./out/mid/v_4000.dat
+ [FileSystem] Successfully saved -- ./out/mid/v_4000.txt
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_4000.dat
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_4000.txt
+ [c = 4200]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 4400]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 4600]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 4800]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 5000]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [FileSystem] Successfully saved -- ./out/mid/omg_5000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_5000.txt
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_5000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_5000.txt
+ [FileSystem] Successfully saved -- ./out/mid/u_5000.dat
+ [FileSystem] Successfully saved -- ./out/mid/u_5000.txt
+ [FileSystem] Successfully saved -- ./out/mid/v_5000.dat
+ [FileSystem] Successfully saved -- ./out/mid/v_5000.txt
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_5000.dat
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_5000.txt
+ [c = 5200]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 5400]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 5600]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 5800]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 6000]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [FileSystem] Successfully saved -- ./out/mid/omg_6000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_6000.txt
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_6000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_6000.txt
+ [FileSystem] Successfully saved -- ./out/mid/u_6000.dat
+ [FileSystem] Successfully saved -- ./out/mid/u_6000.txt
+ [FileSystem] Successfully saved -- ./out/mid/v_6000.dat
+ [FileSystem] Successfully saved -- ./out/mid/v_6000.txt
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_6000.dat
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_6000.txt
+ [c = 6200]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 6400]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 6600]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 6800]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 7000]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [FileSystem] Successfully saved -- ./out/mid/omg_7000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_7000.txt
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_7000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_7000.txt
+ [FileSystem] Successfully saved -- ./out/mid/u_7000.dat
+ [FileSystem] Successfully saved -- ./out/mid/u_7000.txt
+ [FileSystem] Successfully saved -- ./out/mid/v_7000.dat
+ [FileSystem] Successfully saved -- ./out/mid/v_7000.txt
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_7000.dat
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_7000.txt
+ [c = 7200]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 7400]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 7600]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 7800]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 8000]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [FileSystem] Successfully saved -- ./out/mid/omg_8000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_8000.txt
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_8000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_8000.txt
+ [FileSystem] Successfully saved -- ./out/mid/u_8000.dat
+ [FileSystem] Successfully saved -- ./out/mid/u_8000.txt
+ [FileSystem] Successfully saved -- ./out/mid/v_8000.dat
+ [FileSystem] Successfully saved -- ./out/mid/v_8000.txt
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_8000.dat
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_8000.txt
+ [c = 8200]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 8400]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 8600]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 8800]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 9000]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [FileSystem] Successfully saved -- ./out/mid/omg_9000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_9000.txt
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_9000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_9000.txt
+ [FileSystem] Successfully saved -- ./out/mid/u_9000.dat
+ [FileSystem] Successfully saved -- ./out/mid/u_9000.txt
+ [FileSystem] Successfully saved -- ./out/mid/v_9000.dat
+ [FileSystem] Successfully saved -- ./out/mid/v_9000.txt
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_9000.dat
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_9000.txt
+ [c = 9200]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 9400]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 9600]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 9800]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [c = 10000]
+ -- |u| = 0.0888577
+ -- CFL = 0.00203718
+ [FileSystem] Successfully saved -- ./out/mid/omg_10000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_10000.txt
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_10000.dat
+ [FileSystem] Successfully saved -- ./out/mid/omg_h_10000.txt
+ [FileSystem] Successfully saved -- ./out/mid/u_10000.dat
+ [FileSystem] Successfully saved -- ./out/mid/u_10000.txt
+ [FileSystem] Successfully saved -- ./out/mid/v_10000.dat
+ [FileSystem] Successfully saved -- ./out/mid/v_10000.txt
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_10000.dat
+ [FileSystem] Successfully saved -- ./out/mid/energy_spectra_10000.txt
+ [FileSystem] Successfully saved -- ./out/final/u_L2_norm.dat
+ [FileSystem] Successfully saved -- ./out/final/u_L2_norm.txt
+ [FileSystem] Successfully saved -- ./out/final/cfl.dat
+ [FileSystem] Successfully saved -- ./out/final/cfl.txt
+Max CFL Value = 0.00203718
+>> PRALALLELIZATION   || Finalizing.
