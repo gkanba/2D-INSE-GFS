@@ -20,9 +20,13 @@ This repository includes two primary programs:
 ## Dependencies
 
 The following libraries are required to build and run this project:
-- **[Eigen 3.4](https://eigen.tuxfamily.org/dox/)**: A C++ template library for linear algebra.
-- **[FFTW](http://www.fftw.org/)**: A C library for computing the discrete Fourier transform.
-- **[nlohmann/json](https://github.com/nlohmann/json)**: A JSON library for C++.
+
+| **Library**         | **Description**                                               |
+|----------------------|---------------------------------------------------------------|
+| **[Eigen 3.4](https://eigen.tuxfamily.org/dox/GettingStarted.html)** | A C++ template library for linear algebra.                    |
+| **[FFTW](http://www.fftw.org/)**             | A C library for computing the discrete Fourier transform.     |
+| **[nlohmann/json](https://github.com/nlohmann/json)**    | A JSON library for C++.                                       |
+| **[OpenMP](https://www.openmp.org/)**           | A library for parallel programming in C, C++, and Fortran.    |
 
 Ensure these libraries are properly installed and linked before building the project.
 
@@ -31,9 +35,12 @@ Ensure these libraries are properly installed and linked before building the pro
 
 ## References
 
-We refered some useful and valuable educational contributions below:
-- XX1
-- XX2
----
+We referred to some valuable contributions below:
 
-All copyrights related to this contribution belongs to Gakuto Kambayashi.
+The following references are very useful for me to work with this project. I appreciate that these resources were made by predecessors have been working on various research fields and education.
+
+- **[Spectral Methods in Fluid Dynamics](https://link.springer.com/book/10.1007/978-3-642-84108-8)** by C. Canuto, M. Y. Hussaini, A. Quarteroni, and T. A. Zang: A comprehensive reference for spectral methods applied in fluid dynamics.
+- **[Bi-periodic spectral incompressible flow solver](https://www.seas.ucla.edu/fluidflow/lib/ns2d.m)** by Kunihiko Taira: Matlab script for two-dimensional bi-periodic incompressible flow solver example.  
+- **Determining Modes for Continuous Data Assimilation in 2D Turbulence** by Olson, E., & Titi, E. S. (2003). Journal of Statistical Physics, 113(5), 799–840.
+
+This repository is for educational and individual purpose only, not for commercial and academic purpose. We do not have any responsibilities for problems caused by use of our program.
